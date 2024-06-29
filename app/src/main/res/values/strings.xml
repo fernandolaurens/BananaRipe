@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Deteksi Kematangan Pisang</string>
+    <string name="banana_classification">Klasifikasi Piang</string>
+    <string name="jenis_pisang">Tingkat Kematangan Pisang</string>
+    <string name="description">Deskripsi</string>
+    <string-array name="data_name">
+        <item>Pisang Hijau (Underripe Banana)</item>
+        <item>Pisang Kuning (Ripe Banana)</item>
+        <item>Pisang Bercak Cokelat (Very Ripe Banana</item>
+        <item>Pisang yang Sangat Matang (Over Ripe Banana)</item>
+    </string-array>
+    <string-array name="data_detail">data_detail
+        <item>Pisang hijau adalah pisang yang belum matang sepenuhnya. Meskipun rasanya kurang manis, pisang hijau memiliki beberapa manfaat kesehatan yang unik. Pisang hijau kaya akan pektin, serat yang dapat membantu meningkatkan pencernaan dan menjaga kesehatan usus. Serat dalam pisang hijau juga membantu menjaga rasa kenyang lebih lama, sehingga bermanfaat bagi mereka yang ingin mengontrol berat badan. Selain itu, pisang hijau juga mengandung lebih sedikit gula daripada pisang matang, sehingga cocok bagi orang yang perlu mengatur asupan gula.</item>
+        <item>Pisang kuning adalah pisang yang matang sepenuhnya dan memiliki kulit berwarna kuning cerah. Pisang kuning merupakan sumber energi yang baik karena mengandung karbohidrat kompleks yang dapat memberikan dorongan energi yang tahan lama. Buah pisang matang juga mengandung vitamin dan mineral penting seperti vitamin C, vitamin B6, potassium, dan magnesium. Vitamin C membantu meningkatkan kekebalan tubuh, sementara potassium membantu menjaga keseimbangan elektrolit dan tekanan darah. Pisang kuning juga lebih mudah dicerna dan memiliki rasa manis yang lezat.</item>
+        <item>Pisang bercak cokelat adalah pisang yang telah matang dengan bercak-bercak cokelat pada kulitnya. Meskipun mungkin terlihat tidak menarik, pisang bercak cokelat memiliki manfaat kesehatan yang menarik. Pisang ini mengandung senyawa antioksidan yang lebih tinggi, termasuk senyawa fenolik, yang dapat melawan radikal bebas dan menjaga kesehatan sel. Pisang bercak cokelat juga lebih mudah dicerna karena enzim mereka telah mengubah pati menjadi gula lebih sederhana.</item>
+        <item>Pisang sangat matang, yang biasanya memiliki kulit berwarna cokelat atau hitam, juga memiliki manfaat kesehatan yang berbeda. Pisang sangat matang mengandung lebih banyak senyawa antioksidan, termasuk senyawa yang disebut TNF-alpha (Tumor Necrosis Factor-alpha), yang dapat membantu dalam pengaturan sistem kekebalan tubuh dan mengurangi peradangan. Selain itu, pisang sangat matang juga dikenal memiliki efek prebiotik, yang mendukung pertumbuhan bakteri sehat di usus dan meningkatkan kesehatan pencernaan secara keseluruhan.</item>
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/pisang1</item>
+        <item>@drawable/pisang3</item>
+        <item>@drawable/pisang3</item>
+        <item>@drawable/pisang4</item>
+    </integer-array>
+    <string-array name="data_description">
+        <item>.</item>
+        <item>.</item>
+        <item>.</item>
+        <item>.</item>
+    </string-array>
+</resources>

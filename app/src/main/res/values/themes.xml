@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BananaRipe" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#000000</item>
+
+    </style>
+
+    <style name="SCREEN">
+        <item name="android:background">@drawable/background_home</item>
+    </style>
+    <style name="TEXT">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Theme.BananaRipe" parent="Base.Theme.BananaRipe" />
+</resources>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ProfileActivity">
+
+    <!-- Background LinearLayout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/background_home"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- CircleImageView for profile picture -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/gamabr_profil"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/avatar"
+        android:elevation="20dp"
+        app:civ_border_width="8dp"
+        app:civ_border_color="#0ba360"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="170dp" />
+
+    <!-- TextView for profile name -->
+    <TextView
+        android:id="@+id/nama_profil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laurens Fernando Pasaribu"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/gamabr_profil"
+        android:layout_marginTop="20dp" />
+
+    <!-- TextView for NPM -->
+    <TextView
+        android:id="@+id/text_npm_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Nomor Induk Mahasiwa"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:gravity="start"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/text_npm_value"
+        app:layout_constraintTop_toBottomOf="@id/nama_profil"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"/>
+
+    <TextView
+        android:id="@+id/text_npm_value"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="50421744"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="end"
+        app:layout_constraintStart_toEndOf="@+id/text_npm_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nama_profil"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"/>
+
+    <TextView
+        android:id="@+id/Kampus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Fakultas"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="start"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Gunadarma"
+        app:layout_constraintTop_toBottomOf="@id/text_npm_value"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"/>
+
+    <TextView
+        android:id="@+id/Gunadarma"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Teknik Industri"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="end"
+        app:layout_constraintStart_toEndOf="@+id/Kampus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_npm_value"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"/>
+
+    <TextView
+        android:id="@+id/fakultas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Jurusan"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="start"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Gunadarma"
+        app:layout_constraintTop_toBottomOf="@id/Kampus"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"/>
+
+    <TextView
+        android:id="@+id/Teknik_Industri"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Informatika"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="end"
+        app:layout_constraintStart_toEndOf="@+id/Kampus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Gunadarma"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"/>
+
+    <TextView
+        android:id="@+id/Jurusan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Universitas"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="start"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Gunadarma"
+        app:layout_constraintTop_toBottomOf="@id/fakultas"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"/>
+
+    <TextView
+        android:id="@+id/Informatika"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Gunadarma"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="end"
+        app:layout_constraintStart_toEndOf="@+id/Kampus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Teknik_Industri"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"/>
+
+    <!-- CardView for header title -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/header_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="#0ba360"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:paddingStart="16dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="8dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Bottom NavigationView -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/bottom_background"
+        android:elevation="2dp"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:menu="@menu/bottom_menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
